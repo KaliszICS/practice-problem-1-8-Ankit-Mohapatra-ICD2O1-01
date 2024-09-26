@@ -1,15 +1,22 @@
 
 def q1():
-  #Write Assignment code here
+ bool1 = True
+ bool2 = False
+ print(bool1 and bool2)
+ print(bool1 or bool2)
 
 def q2():
-  #Write Assignment code here
+x = int(input("Enter an integer: "))
+print(x != 0)
 
 def q3():
-  #Write Assignment code here
+  bool3 = int(input("Enter a number: "))
+  print(bool3 > 0 and bool3 < 10)
 
 def q4():
-  #Write Assignment code here
+ bool4 = input("Input food: ")
+ bool5 = input("Input drink")
+
 
 def q5():
   #Write Assignment code here
