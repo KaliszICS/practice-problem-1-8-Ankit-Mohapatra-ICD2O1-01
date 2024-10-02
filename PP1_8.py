@@ -11,17 +11,21 @@ def q2():
 
 def q3():
   bool3 = int(input("Enter a number: "))
-  print(bool3 > 0 and bool3 < 10)
+  print(bool3 >= 0 and bool3 <= 10)
 
 def q4():
-  input("Input food: ")
-  input("Input drink: ")
-  print("pizza" == "pop")
+ x=input("Input food: ")
+ y=input("Input drink: ")
+ foodlist=["Pop","Pizza"]
+ if x.upper() in foodlist or y.upper() in foodlist:
+      print(False)
+ else:
+      print(True)
 
 
 def q5():
   x = int(input("Enter an integer: "))
-  print(f"The input {x} is {(x % 2 == 0)}.")
+  print(f"The integer {x} is {(x % 2 == 0)}")
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
