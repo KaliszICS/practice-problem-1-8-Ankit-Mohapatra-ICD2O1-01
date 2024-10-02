@@ -157,7 +157,7 @@ def test_q4_2(capsys):
 
 	PP1_8.q4()
 	captured = capsys.readouterr()
-	assert captured.out == "Input food: Input drink: True\n"
+	assert captured.out == "Input food: Input drink: False\n"
 
 def test_q5_2(capsys):
 
@@ -324,7 +324,7 @@ def test_q4_4(capsys):
 	except:
 		sys.exit()
 
-	input_values = ['pop', 'pizza']
+	input_values = ['pizza', 'pizza']
 
 	def mock_input(s):
 		print(s, end='')

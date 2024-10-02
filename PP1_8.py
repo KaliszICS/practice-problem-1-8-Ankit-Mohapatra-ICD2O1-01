@@ -16,7 +16,7 @@ def q3():
 def q4():
  x=input("Input food: ")
  y=input("Input drink: ")
- foodlist=["Pop","Pizza"]
+ foodlist=["POP","PIZZA"]
  if x.upper() in foodlist or y.upper() in foodlist:
       print(False)
  else:
