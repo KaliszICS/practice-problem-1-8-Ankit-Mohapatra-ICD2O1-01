@@ -148,7 +148,7 @@ def test_q4_2(capsys):
 	except:
 		sys.exit()
 
-	input_values = ['pop', 'pop']
+	input_values = ['pop', 'pizza']
 
 	def mock_input(s):
 		print(s, end='')
@@ -217,7 +217,7 @@ def test_q3_3(capsys):
 	except:
 		sys.exit()
 
-	input_values = ['5.5']
+	input_values = ['5']
 
 	def mock_input(s):
 		print(s, end='')
@@ -412,7 +412,7 @@ def test_q4_5(capsys):
 	except:
 		sys.exit()
 
-	input_values = ['pizza', 'pizza']
+	input_values = ['pop', 'pop']
 
 	def mock_input(s):
 		print(s, end='')
