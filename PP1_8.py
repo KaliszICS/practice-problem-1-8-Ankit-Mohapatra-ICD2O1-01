@@ -14,13 +14,12 @@ def q3():
   print(bool3 >= 0 and bool3 <= 10)
 
 def q4():
- x=input("Input food: ")
- y=input("Input drink: ")
- foodlist=["POP","PIZZA"]
- if x.upper() in foodlist or y.upper() in foodlist:
-      print(False)
- else:
-      print(True)
+x = input("Input food: ")
+y = input("Input drink: ")
+if x.lower() == "pizza" and y.lower() == "pop":
+    print(False)
+else:
+    print(True)
 
 
 def q5():
